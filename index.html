@@ -1,0 +1,62 @@
+<!--Notify programmerJohn before updating the page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+<!--the following script tag handles the function duties-->
+    <script type="text/javascript">
+        function thanksFunction() {
+            alert("Thanks for ordering :3")
+        }
+    </script>
+</head>
+<body>
+    <img src="wienermobile.jpg"class="logo"/>
+    <h1>Welcome to John's Wienermobile</h1>
+
+    <div class="bar">
+        <img src="chicagostyledog.jpeg"/>
+        <img src="sonorandog.jpg"/>
+        <img src="coneyhotdog.jpg"/>
+        <img src="coolhotdog.jpg"/>
+    </div>
+
+    <div class="maintxt">
+
+    <label for="fname">Name</label>
+    <input type = "text" id="name" name="name">
+
+    <h3>Choose your subs</h3>
+
+    <input type="checkbox" id="food1" name="f1" value="Chicago">
+        <label for="food1">Chicago Style</label>
+
+    <input type="checkbox" id="food2" name="f2" value="Sonoran">
+        <label for="food2">Sonoran Dog</label>
+
+    <input type="checkbox" id="food3" name="f3" value="Coney">
+        <label for="food3"> Coney Dog</label>
+    
+    <h3>Choose your drink</h3>
+    <select name="drink" id="myDrink">
+        <option value="Coke">Coke</option>
+        <option value="Tea">Tea</option>
+        <option value="Water">Sparkling Water</option>
+    </select>
+
+    <input type="radio" id="op1" name="choices" value="pickup">
+        <label for="opt1">Pickup</label>
+
+    <input type="radio" id="op1" name="choices" value="delivery">
+        <label for="opt1">Delivery</label>
+
+    <h3>Place your order</h3>
+    <input type="submit" value="Place Order" onclick="thanksFunction()">
+
+</div>
+</body>
+</html>

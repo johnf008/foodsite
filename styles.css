@@ -1,0 +1,85 @@
+@font-face {
+    font-family: coolFont;
+    src:url(fonts/fot-yuruka-std\.ttf);
+    }
+    body{
+        background-color: rgb(233, 230, 75); 
+        color: rgb(255, 0, 0); 
+        font-family:coolFont;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .maintxt {
+        text-align: center;
+        background-color: rgb(248, 255, 176);
+        width: 500px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .fish{
+        width: 300px; 
+        border-radius: 5%;
+    }
+    .bar{
+        display: inline-block;
+        text-align: center;
+        padding-left: 300px;
+        padding-right: 300px;
+        
+    }
+
+    .bar img {
+        height: 200px;
+        border-radius: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .icon{
+        width: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card{
+        width:400px;
+        padding-bottom: 20px;
+    }
+
+    .topnav {
+        background-color: rgb(19, 41, 77);
+        overflow: hidden;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+
+      .topnav a:hover {
+        background-color: rgb(169, 200, 255);
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: #f2f2f2;
+      }
+    
+      .logo{
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+      }
